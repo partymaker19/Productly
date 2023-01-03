@@ -1,0 +1,23 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partymaker19/Productly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partymaker19/Productly/issues"
+  },
+  "homepage": "https://github.com/partymaker19/Productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
