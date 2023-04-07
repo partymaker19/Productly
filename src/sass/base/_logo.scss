@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+}
+
+.logo-object {
+  width: 160px;
+}
+
+.logo-svg:hover {
+  .logo-path {
+    fill: $color-primary;
+  }
+}
