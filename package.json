@@ -1,0 +1,29 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serv",
+    "build-dev": "webpack ./src/js/index.js",
+    "build-prod": "webpack --node-env=production ./src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partymaker19/Productly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partymaker19/Productly/issues"
+  },
+  "homepage": "https://github.com/partymaker19/Productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
